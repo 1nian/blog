@@ -1,8 +1,9 @@
 const themeConfig = require('./config/theme/')
 
 module.exports = {
-  title: "午后南杂",
-  description: 'Enjoy when you can, and endure when you must.',
+  base:"/blog/",
+  title: "1 nian",
+  description: '',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
